@@ -1,0 +1,11 @@
+
+sources:
+  - name: src_sales
+    database: sales_database
+    schema: sales_schema
+    tables:
+      - name: raw_product
+        columns: 
+          - name: product_id
+            tests: 
+              - not_null
