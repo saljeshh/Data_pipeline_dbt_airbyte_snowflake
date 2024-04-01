@@ -1,0 +1,34 @@
+Running with dbt=1.7.10
+Registered adapter: snowflake=1.7.2
+Found 10 models, 1 test, 1 source, 0 exposures, 0 metrics, 675 macros, 0 groups, 0 semantic models
+
+Concurrency: 10 threads (target='dev')
+
+1 of 11 START sql table model SALES_SCHEMA_temp.stg_date ....................... [RUN]
+2 of 11 START test source_not_null_src_sales_raw_product_product_id ............ [RUN]
+2 of 11 PASS source_not_null_src_sales_raw_product_product_id .................. [[32mPASS[0m in 1.14s]
+3 of 11 START sql table model SALES_SCHEMA_temp.stg_sales ...................... [RUN]
+1 of 11 OK created sql table model SALES_SCHEMA_temp.stg_date .................. [[32mSUCCESS 1[0m in 2.40s]
+4 of 11 START sql table model SALES_SCHEMA_marts.dim_date ...................... [RUN]
+3 of 11 OK created sql table model SALES_SCHEMA_temp.stg_sales ................. [[32mSUCCESS 1[0m in 1.30s]
+5 of 11 START sql view model SALES_SCHEMA_temp.mod_customer .................... [RUN]
+6 of 11 START sql view model SALES_SCHEMA_temp.mod_product ..................... [RUN]
+6 of 11 OK created sql view model SALES_SCHEMA_temp.mod_product ................ [[32mSUCCESS 1[0m in 1.36s]
+7 of 11 START sql table model SALES_SCHEMA_marts.dim_product ................... [RUN]
+5 of 11 OK created sql view model SALES_SCHEMA_temp.mod_customer ............... [[32mSUCCESS 1[0m in 1.43s]
+8 of 11 START sql table model SALES_SCHEMA_marts.dim_customer .................. [RUN]
+9 of 11 START sql view model SALES_SCHEMA_temp.mod_fact ........................ [RUN]
+4 of 11 OK created sql table model SALES_SCHEMA_marts.dim_date ................. [[32mSUCCESS 1[0m in 2.09s]
+9 of 11 OK created sql view model SALES_SCHEMA_temp.mod_fact ................... [[32mSUCCESS 1[0m in 1.15s]
+10 of 11 START sql view model SALES_SCHEMA_temp.enrich_fact .................... [RUN]
+7 of 11 OK created sql table model SALES_SCHEMA_marts.dim_product .............. [[32mSUCCESS 1[0m in 1.34s]
+8 of 11 OK created sql table model SALES_SCHEMA_marts.dim_customer ............. [[32mSUCCESS 1[0m in 1.43s]
+10 of 11 OK created sql view model SALES_SCHEMA_temp.enrich_fact ............... [[32mSUCCESS 1[0m in 0.94s]
+11 of 11 START sql table model SALES_SCHEMA_marts.fact_sales ................... [RUN]
+11 of 11 OK created sql table model SALES_SCHEMA_marts.fact_sales .............. [[32mSUCCESS 1[0m in 1.58s]
+
+Finished running 1 test, 6 table models, 4 view models in 0 hours 0 minutes and 10.02 seconds (10.02s).
+
+[32mCompleted successfully[0m
+
+Done. PASS=11 WARN=0 ERROR=0 SKIP=0 TOTAL=11

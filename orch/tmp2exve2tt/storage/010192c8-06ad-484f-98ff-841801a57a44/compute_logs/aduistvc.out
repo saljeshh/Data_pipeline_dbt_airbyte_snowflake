@@ -1,0 +1,269 @@
+2024-04-01 11:40:34 [46mplatform[0m > Docker volume job log path: /tmp/workspace/22/0/logs.log
+2024-04-01 11:40:34 [46mplatform[0m > Executing worker wrapper. Airbyte version: 0.51.0
+2024-04-01 11:40:34 [46mplatform[0m > Attempt 0 to save workflow id for cancellation
+2024-04-01 11:40:34 [46mplatform[0m > start sync worker. job id: 22 attempt id: 0
+2024-04-01 11:40:34 [46mplatform[0m > 
+2024-04-01 11:40:34 [46mplatform[0m > ----- START REPLICATION -----
+2024-04-01 11:40:34 [46mplatform[0m > 
+2024-04-01 11:40:34 [46mplatform[0m > Running destination...
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SIDECAR_KUBE_CPU_LIMIT: '2.0'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SIDECAR_KUBE_CPU_LIMIT: '2.0'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SOCAT_KUBE_CPU_LIMIT: '2.0'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SOCAT_KUBE_CPU_LIMIT: '2.0'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SIDECAR_KUBE_CPU_REQUEST: '0.1'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SIDECAR_KUBE_CPU_REQUEST: '0.1'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SOCAT_KUBE_CPU_REQUEST: '0.1'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable SOCAT_KUBE_CPU_REQUEST: '0.1'
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable LAUNCHDARKLY_KEY: ''
+2024-04-01 11:40:34 [46mplatform[0m > Using default value for environment variable LAUNCHDARKLY_KEY: ''
+2024-04-01 11:40:34 [46mplatform[0m > Checking if airbyte/source-mssql:3.6.1 exists...
+2024-04-01 11:40:34 [46mplatform[0m > Checking if airbyte/destination-snowflake:3.5.14 exists...
+2024-04-01 11:40:34 [46mplatform[0m > airbyte/source-mssql:3.6.1 was found locally.
+2024-04-01 11:40:34 [46mplatform[0m > Creating docker container = source-mssql-read-22-0-mbnki with resources io.airbyte.config.ResourceRequirements@8e51418[cpuRequest=1,cpuLimit=2,memoryRequest=1Gi,memoryLimit=2Gi,additionalProperties={}] and allowedHosts io.airbyte.config.AllowedHosts@1f574d40[hosts=[192.168.0.133, *.datadoghq.com, *.datadoghq.eu, *.sentry.io],additionalProperties={}]
+2024-04-01 11:40:34 [46mplatform[0m > Preparing command: docker run --rm --init -i -w /data/22/0 --log-driver none --name source-mssql-read-22-0-mbnki -e CONCURRENT_SOURCE_STREAM_READ=false --network host -v airbyte_workspace:/data -v /tmp/airbyte_local:/local -e DEPLOYMENT_MODE=OSS -e WORKER_CONNECTOR_IMAGE=airbyte/source-mssql:3.6.1 -e AUTO_DETECT_SCHEMA=true -e LAUNCHDARKLY_KEY= -e SOCAT_KUBE_CPU_REQUEST=0.1 -e SOCAT_KUBE_CPU_LIMIT=2.0 -e FIELD_SELECTION_WORKSPACES= -e USE_STREAM_CAPABLE_STATE=true -e AIRBYTE_ROLE=dev -e WORKER_ENVIRONMENT=DOCKER -e APPLY_FIELD_SELECTION=false -e WORKER_JOB_ATTEMPT=0 -e OTEL_COLLECTOR_ENDPOINT=http://host.docker.internal:4317 -e FEATURE_FLAG_CLIENT=config -e AIRBYTE_VERSION=0.51.0 -e WORKER_JOB_ID=22 --cpus=2 --memory-reservation=1Gi --memory=2Gi airbyte/source-mssql:3.6.1 read --config source_config.json --catalog source_catalog.json
+2024-04-01 11:40:34 [46mplatform[0m > airbyte/destination-snowflake:3.5.14 was found locally.
+2024-04-01 11:40:34 [46mplatform[0m > Creating docker container = destination-snowflake-write-22-0-pylmd with resources io.airbyte.config.ResourceRequirements@9807f30[cpuRequest=1,cpuLimit=2,memoryRequest=1Gi,memoryLimit=2Gi,additionalProperties={}] and allowedHosts null
+2024-04-01 11:40:34 [46mplatform[0m > Preparing command: docker run --rm --init -i -w /data/22/0 --log-driver none --name destination-snowflake-write-22-0-pylmd --network host -v airbyte_workspace:/data -v /tmp/airbyte_local:/local -e DEPLOYMENT_MODE=OSS -e WORKER_CONNECTOR_IMAGE=airbyte/destination-snowflake:3.5.14 -e AUTO_DETECT_SCHEMA=true -e LAUNCHDARKLY_KEY= -e SOCAT_KUBE_CPU_REQUEST=0.1 -e SOCAT_KUBE_CPU_LIMIT=2.0 -e FIELD_SELECTION_WORKSPACES= -e USE_STREAM_CAPABLE_STATE=true -e AIRBYTE_ROLE=dev -e WORKER_ENVIRONMENT=DOCKER -e APPLY_FIELD_SELECTION=false -e WORKER_JOB_ATTEMPT=0 -e OTEL_COLLECTOR_ENDPOINT=http://host.docker.internal:4317 -e FEATURE_FLAG_CLIENT=config -e AIRBYTE_VERSION=0.51.0 -e WORKER_JOB_ID=22 --cpus=2 --memory-reservation=1Gi --memory=2Gi airbyte/destination-snowflake:3.5.14 write --config destination_config.json --catalog destination_catalog.json
+2024-04-01 11:40:34 [46mplatform[0m > Reading messages from protocol version 0.2.0
+2024-04-01 11:40:34 [46mplatform[0m > Writing messages to protocol version 0.2.0
+2024-04-01 11:40:34 [46mplatform[0m > Reading messages from protocol version 0.2.0
+2024-04-01 11:40:34 [46mplatform[0m > readFromSource: start
+2024-04-01 11:40:34 [46mplatform[0m > Starting source heartbeat check. Will check every 1 minutes.
+2024-04-01 11:40:34 [46mplatform[0m > processMessage: start
+2024-04-01 11:40:34 [46mplatform[0m > writeToDestination: start
+2024-04-01 11:40:34 [46mplatform[0m > readFromDestination: start
+2024-04-01 11:40:36 [44msource[0m > WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-04-01 11:40:36 [44msource[0m > WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-04-01 11:40:36 [44msource[0m > WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-04-01 11:40:36 [44msource[0m > WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-04-01 11:40:36 [43mdestination[0m > INFO main i.a.c.i.b.a.AdaptiveDestinationRunner$Runner(getDestination):75 Running destination under deployment mode: OSS
+2024-04-01 11:40:36 [43mdestination[0m > INFO main i.a.c.i.b.a.AdaptiveDestinationRunner$Runner(run):87 Starting destination: io.airbyte.integrations.destination.snowflake.SnowflakeDestination
+2024-04-01 11:40:36 [44msource[0m > 2024-04-01 11:40:36 [32mINFO[m i.a.i.s.m.MssqlSource(main):681 - starting source: class io.airbyte.integrations.source.mssql.MssqlSource
+2024-04-01 11:40:37 [43mdestination[0m > INFO main i.a.c.i.b.IntegrationCliParser(parseOptions):126 integration args: {catalog=destination_catalog.json, write=null, config=destination_config.json}
+2024-04-01 11:40:37 [43mdestination[0m > INFO main i.a.c.i.b.IntegrationRunner(runInternal):132 Running integration: io.airbyte.integrations.destination.snowflake.SnowflakeDestination
+2024-04-01 11:40:37 [43mdestination[0m > INFO main i.a.c.i.b.IntegrationRunner(runInternal):133 Command: WRITE
+2024-04-01 11:40:37 [43mdestination[0m > INFO main i.a.c.i.b.IntegrationRunner(runInternal):134 Integration config: IntegrationConfig{command=WRITE, configPath='destination_config.json', catalogPath='destination_catalog.json', statePath='null'}
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [32mINFO[m i.a.c.i.b.IntegrationCliParser(parseOptions):126 - integration args: {read=null, catalog=source_catalog.json, config=source_config.json}
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [32mINFO[m i.a.c.i.b.IntegrationRunner(runInternal):132 - Running integration: io.airbyte.cdk.integrations.base.ssh.SshWrappedSource
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [32mINFO[m i.a.c.i.b.IntegrationRunner(runInternal):133 - Command: READ
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [32mINFO[m i.a.c.i.b.IntegrationRunner(runInternal):134 - Integration config: IntegrationConfig{command=READ, configPath='source_config.json', catalogPath='source_catalog.json', statePath='null'}
+2024-04-01 11:40:37 [43mdestination[0m > WARN main c.n.s.JsonMetaSchema(newValidator):278 Unknown keyword pattern_descriptor - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+2024-04-01 11:40:37 [43mdestination[0m > WARN main c.n.s.JsonMetaSchema(newValidator):278 Unknown keyword order - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+2024-04-01 11:40:37 [43mdestination[0m > WARN main c.n.s.JsonMetaSchema(newValidator):278 Unknown keyword airbyte_secret - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [33mWARN[m c.n.s.JsonMetaSchema(newValidator):278 - Unknown keyword order - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [33mWARN[m c.n.s.JsonMetaSchema(newValidator):278 - Unknown keyword airbyte_secret - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+2024-04-01 11:40:37 [44msource[0m > 2024-04-01 11:40:37 [33mWARN[m c.n.s.JsonMetaSchema(newValidator):278 - Unknown keyword display_type - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword
+2024-04-01 11:40:38 [43mdestination[0m > INFO main i.a.c.i.d.s.StagingConsumerFactory(lambda$toWriteConfig$2):293 Write config: WriteConfig{streamName=raw_product, namespace=SALES_SCHEMA, outputSchemaName=airbyte_internal, tmpTableName=_airbyte_tmp_cir_raw_product, outputTableName=SALES_SCHEMA_raw__stream_raw_product, syncMode=overwrite}
+2024-04-01 11:40:38 [43mdestination[0m > INFO main i.a.c.i.d.b.BufferManager(<init>):53 Max 'memory' available for buffer allocation 768 MB
+2024-04-01 11:40:38 [43mdestination[0m > INFO pool-4-thread-1 i.a.c.i.d.b.BufferManager(printQueueInfo):118 [ASYNC QUEUE INFO] Global: max: 768 MB, allocated: 10 MB (10.0 MB), % used: 0.013020833333333334 | State Manager memory usage: Allocated: 10 MB, Used: 0 bytes, percentage Used 0.000000
+2024-04-01 11:40:38 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(start):95 Start async buffer supervisor
+2024-04-01 11:40:38 [43mdestination[0m > INFO main i.a.c.i.d.AsyncStreamConsumer(start):138 class io.airbyte.cdk.integrations.destination_async.AsyncStreamConsumer started.
+2024-04-01 11:40:38 [43mdestination[0m > INFO pool-6-thread-1 i.a.c.i.d.FlushWorkers(printWorkerInfo):143 [ASYNC WORKER INFO] Pool queue size: 0, Active threads: 0
+2024-04-01 11:40:38 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onStartFunction$0):41 Preparing raw tables in destination started for 1 streams
+2024-04-01 11:40:38 [43mdestination[0m > INFO main i.a.i.b.d.t.DefaultTyperDeduper(prepareTables):117 Preparing tables
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m i.a.c.i.b.s.SshTunnel(getInstance):252 - Starting connection with method: NO_TUNNEL
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m i.a.c.i.s.r.s.StateManagerFactory(createStateManager):57 - Stream state manager selected to manage state object with type STREAM.
+2024-04-01 11:40:38 [43mdestination[0m > INFO main c.z.h.HikariDataSource(getConnection):109 HikariPool-1 - Starting...
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m i.a.c.i.s.r.s.CursorManager(createCursorInfoForStream):192 - No cursor field set in catalog but not present in state. Stream: dbo_raw_product, New Cursor Field: null. Resetting cursor value
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m c.z.h.HikariDataSource(<init>):80 - HikariPool-1 - Starting...
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m c.z.h.HikariDataSource(<init>):82 - HikariPool-1 - Start completed.
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m i.a.c.i.s.j.AbstractJdbcSource(logPreSyncDebugData):467 - Data source product recognized as Microsoft SQL Server:15.00.2000
+2024-04-01 11:40:38 [44msource[0m > 2024-04-01 11:40:38 [32mINFO[m i.a.c.i.s.j.AbstractJdbcSource(discoverInternal):169 - Internal schemas to exclude: [spt_fallback_db, spt_monitor, cdc, spt_values, INFORMATION_SCHEMA, spt_fallback_usg, MSreplication_options, sys, spt_fallback_dev]
+2024-04-01 11:40:39 [43mdestination[0m > INFO main c.z.h.p.HikariPool(checkFailFast):554 HikariPool-1 - Added connection net.snowflake.client.jdbc.SnowflakeConnectionV1@63d5874f
+2024-04-01 11:40:39 [43mdestination[0m > INFO main c.z.h.HikariDataSource(getConnection):122 HikariPool-1 - Start completed.
+2024-04-01 11:40:40 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.BaseDestinationV1V2Migrator(migrateIfNecessary):26 Assessing whether migration is necessary for stream RAW_PRODUCT
+2024-04-01 11:40:40 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.BaseDestinationV1V2Migrator(shouldMigrate):45 Checking whether v1 raw table _airbyte_raw_raw_product in dataset SALES_SCHEMA exists
+2024-04-01 11:40:40 [43mdestination[0m > INFO type-and-dedupe i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:42 [43mdestination[0m > INFO type-and-dedupe i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:43 [43mdestination[0m > INFO type-and-dedupe i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:43 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.BaseDestinationV1V2Migrator(shouldMigrate):49 Migration Info: Required for Sync mode: false, No existing v2 raw tables: false, A v1 raw table exists: false
+2024-04-01 11:40:43 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.BaseDestinationV1V2Migrator(migrateIfNecessary):32 No Migration Required for stream: RAW_PRODUCT
+2024-04-01 11:40:43 [43mdestination[0m > INFO type-and-dedupe i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:45 [43mdestination[0m > INFO type-and-dedupe i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:45 [43mdestination[0m > INFO type-and-dedupe i.a.i.d.s.t.SnowflakeV2TableMigrator(migrateIfNecessary):55 Checking whether upcasing migration is necessary for SALES_SCHEMA.raw_product. Sync mode requires migration: false; existing case-sensitive table exists: false; existing uppercased table does not exist: false
+2024-04-01 11:40:46 [43mdestination[0m > INFO main i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:47 [43mdestination[0m > INFO main i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:51 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.DefaultTyperDeduper(lambda$prepareTablesFuture$1):154 Final Table exists for stream RAW_PRODUCT
+2024-04-01 11:40:52 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.DefaultTyperDeduper(lambda$prepareTablesFuture$1):163 Using temp final table for stream RAW_PRODUCT, will overwrite existing table at end of sync
+2024-04-01 11:40:52 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onStartFunction$0):53 Preparing staging area in destination started for schema airbyte_internal stream raw_product: target table: SALES_SCHEMA_raw__stream_raw_product, stage: 2024/04/01/11/CF5223E8-AD51-48E5-B5B4-8BFE134D5C61/
+2024-04-01 11:40:52 [43mdestination[0m > INFO main i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:40:52 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onStartFunction$0):70 Preparing staging area in destination completed for schema airbyte_internal stream raw_product
+2024-04-01 11:40:52 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onStartFunction$0):72 Executing finalization of tables.
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.i.s.m.MssqlSource(getIncrementalIterators):531 - using CDC: false
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.i.s.m.MssqlSource(queryTableFullRefresh):161 - Queueing query for table: raw_product
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.d.j.s.AdaptiveStreamingQueryConfig(initialize):31 - Set initial fetch size: 10 rows
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.i.s.m.MssqlSource(queryTableFullRefresh):179 - Prepared SQL query for TableFullRefresh is: SELECT "product_id", "product_name", "product_state", "selling_price", "product_cost", "quantity", "customer_name", "order_date", "city", "state" FROM "dbo"."raw_product"
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.i.s.r.RelationalDbQueryUtils(lambda$queryTable$0):73 - Queueing query: SELECT "product_id", "product_name", "product_state", "selling_price", "product_cost", "quantity", "customer_name", "order_date", "city", "state" FROM "dbo"."raw_product"
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.d.j.s.AdaptiveStreamingQueryConfig(initialize):31 - Set initial fetch size: 10 rows
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.d.j.s.AdaptiveStreamingQueryConfig(accept):40 - Set new fetch size: 400832 rows
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.d.j.s.TwoStageSizeEstimator(getTargetBufferByteSize):71 - Max memory limit: 1610612736, JDBC buffer size: 966367642
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.i.s.r.AbstractDbSource(lambda$read$1):184 - Closing database connection pool.
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m c.z.h.HikariDataSource(close):350 - HikariPool-1 - Shutdown initiated...
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m c.z.h.HikariDataSource(close):352 - HikariPool-1 - Shutdown completed.
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.i.s.r.AbstractDbSource(lambda$read$1):186 - Closed database connection pool.
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.c.i.b.IntegrationRunner(runInternal):231 - Completed integration: io.airbyte.cdk.integrations.base.ssh.SshWrappedSource
+2024-04-01 11:41:17 [44msource[0m > 2024-04-01 11:41:17 [32mINFO[m i.a.i.s.m.MssqlSource(main):683 - completed source: class io.airbyte.integrations.source.mssql.MssqlSource
+2024-04-01 11:41:17 [46mplatform[0m > Total records read: 394 (82 KB)
+2024-04-01 11:41:17 [46mplatform[0m > Schema validation was performed to a max of 10 records with errors per stream.
+2024-04-01 11:41:17 [46mplatform[0m > readFromSource: done. (source.isFinished:true, fromSource.isClosed:false)
+2024-04-01 11:41:17 [46mplatform[0m > processMessage: done. (fromSource.isDone:true, forDest.isClosed:false)
+2024-04-01 11:41:17 [46mplatform[0m > thread status... heartbeat thread: false , replication thread: true
+2024-04-01 11:41:17 [46mplatform[0m > writeToDestination: done. (forDest.isDone:true, isDestRunning:true)
+2024-04-01 11:41:17 [46mplatform[0m > thread status... timeout thread: false , replication thread: true
+2024-04-01 11:41:17 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):188 Closing flush workers -- waiting for all buffers to flush
+2024-04-01 11:41:17 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):213 REMAINING_BUFFERS_INFO
+  Namespace: SALES_SCHEMA Stream: raw_product -- remaining records: 391
+2024-04-01 11:41:17 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):214 Waiting for all streams to flush.
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-7-thread-1 i.a.c.i.d.DetectStreamToFlush(getNextStreamToFlush):122 flushing: trigger info: SALES_SCHEMA - raw_product, time trigger: false , size trigger: true current threshold b: 0 bytes, queue size b: 146.14 KB, penalty b: 0 bytes, after penalty b: 146.14 KB
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.FlushWorkers(lambda$flush$1):149 Flush Worker (a6fe5) -- Worker picked up work.
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.FlushWorkers(lambda$flush$1):151 Flush Worker (a6fe5) -- Attempting to read from queue namespace: SALES_SCHEMA, stream: raw_product.
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.GlobalMemoryManager(free):88 Freeing 10336112 bytes..
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.FlushWorkers(lambda$flush$1):164 Flush Worker (a6fe5) -- Batch contains: 391 records, 146.14 KB bytes.
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.r.BaseSerializedBuffer(flush):172 Finished writing data to 664a8cab-e7b6-48bc-8271-36a1891487b215852042543968774181.csv.gz (13 KB)
+2024-04-01 11:41:18 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.s.AsyncFlush(flush):88 Flushing CSV buffer for stream raw_product (13 KB) to staging
+2024-04-01 11:41:18 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):217 Closing flush workers -- all buffers flushed
+2024-04-01 11:41:18 [43mdestination[0m > INFO main i.a.c.i.d.GlobalMemoryManager(free):88 Freeing 0 bytes..
+2024-04-01 11:41:18 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):225 Closing flush workers -- supervisor shut down
+2024-04-01 11:41:18 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):227 Closing flush workers -- Starting worker pool shutdown..
+2024-04-01 11:41:20 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.d.j.DefaultJdbcDatabase(lambda$unsafeQuery$1):132 closing connection
+2024-04-01 11:41:20 [43mdestination[0m > INFO pool-5-thread-1 i.a.i.d.s.SnowflakeInternalStagingSqlOperations(uploadRecordsToStage):103 Successfully loaded records to stage 2024/04/01/11/885F6E37-7AA4-4439-81A3-7B953DE6DFC5/ with 0 re-attempt(s)
+2024-04-01 11:41:24 [43mdestination[0m > INFO pool-5-thread-1 i.a.i.b.d.t.TypeAndDedupeOperationValve(readyToTypeAndDedupe):88 Skipping Incremental Typing and Deduping
+2024-04-01 11:41:24 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.r.FileBuffer(deleteFile):109 Deleting tempFile data 664a8cab-e7b6-48bc-8271-36a1891487b215852042543968774181.csv.gz
+2024-04-01 11:41:24 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.GlobalMemoryManager(free):88 Freeing 0 bytes..
+2024-04-01 11:41:24 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.GlobalMemoryManager(free):88 Freeing 149648 bytes..
+2024-04-01 11:41:24 [43mdestination[0m > INFO pool-5-thread-1 i.a.c.i.d.FlushWorkers(lambda$flush$1):173 Flush Worker (a6fe5) -- Worker finished flushing. Current queue size: 0
+2024-04-01 11:41:24 [43mdestination[0m > INFO main i.a.c.i.d.FlushWorkers(close):232 Closing flush workers  -- workers shut down
+2024-04-01 11:41:24 [43mdestination[0m > INFO main i.a.c.i.d.b.BufferManager(close):92 Buffers cleared..
+2024-04-01 11:41:24 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onCloseFunction$1):131 Cleaning up destination started for 1 streams
+2024-04-01 11:41:24 [43mdestination[0m > INFO main i.a.i.b.d.t.DefaultTyperDeduper(typeAndDedupe):281 Typing and deduping all tables
+2024-04-01 11:41:24 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.DefaultTyperDeduper(lambda$typeAndDedupeTask$2):251 Waiting for raw table writes to pause for SALES_SCHEMA.raw_product
+2024-04-01 11:41:24 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.TypeAndDedupeTransaction(executeTypeAndDedupe):36 Attempting typing and deduping for SALES_SCHEMA.raw_product with suffix _airbyte_tmp
+2024-04-01 11:41:25 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.DefaultTyperDeduper(lambda$typeAndDedupeTask$2):263 Allowing other threads to proceed for SALES_SCHEMA.raw_product
+2024-04-01 11:41:25 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onCloseFunction$1):143 Cleaning stage in destination started for stream raw_product. schema airbyte_internal, stage: 2024/04/01/11/885F6E37-7AA4-4439-81A3-7B953DE6DFC5/
+2024-04-01 11:41:25 [43mdestination[0m > INFO main i.a.i.b.d.t.DefaultTyperDeduper(commitFinalTables):322 Committing final tables
+2024-04-01 11:41:25 [43mdestination[0m > INFO type-and-dedupe i.a.i.b.d.t.DefaultTyperDeduper(lambda$commitFinalTableTask$8):345 Overwriting final table with tmp table for stream SALES_SCHEMA.raw_product
+2024-04-01 11:41:26 [43mdestination[0m > INFO main i.a.i.b.d.t.DefaultTyperDeduper(cleanup):363 Cleaning Up type-and-dedupe thread pool
+2024-04-01 11:41:26 [43mdestination[0m > INFO main i.a.c.i.d.s.GeneralStagingFunctions(lambda$onCloseFunction$1):152 Cleaning up destination completed.
+2024-04-01 11:41:26 [43mdestination[0m > INFO main i.a.c.i.d.AsyncStreamConsumer(close):219 class io.airbyte.cdk.integrations.destination_async.AsyncStreamConsumer closed
+2024-04-01 11:41:26 [43mdestination[0m > WARN main i.a.c.i.b.IntegrationRunner(stopOrphanedThreads):366 The main thread is exiting while children non-daemon threads from a connector are still active.
+Ideally, this situation should not happen...
+Please check with maintainers if the connector or library code should safely clean up its threads before quitting instead.
+The main thread is: main (RUNNABLE)
+ Thread stacktrace: java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+        at io.airbyte.cdk.integrations.base.IntegrationRunner.dumpThread(IntegrationRunner.java:396)
+        at io.airbyte.cdk.integrations.base.IntegrationRunner.stopOrphanedThreads(IntegrationRunner.java:370)
+        at io.airbyte.cdk.integrations.base.IntegrationRunner.runInternal(IntegrationRunner.java:192)
+        at io.airbyte.cdk.integrations.base.IntegrationRunner.run(IntegrationRunner.java:125)
+        at io.airbyte.cdk.integrations.base.adaptive.AdaptiveDestinationRunner$Runner.run(AdaptiveDestinationRunner.java:88)
+        at io.airbyte.integrations.destination.snowflake.SnowflakeDestinationRunner.main(SnowflakeDestinationRunner.java:20)
+2024-04-01 11:41:26 [43mdestination[0m > WARN main i.a.c.i.b.IntegrationRunner(stopOrphanedThreads):378 Active non-daemon thread: pool-10-thread-8 (RUNNABLE)
+ Thread stacktrace: java.base/sun.nio.ch.Net.poll(Native Method)
+        at java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:191)
+        at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280)
+        at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+        at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+        at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+        at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+        at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+        at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+        at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+        at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1461)
+        at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+        at net.snowflake.client.jdbc.internal.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+        at net.snowflake.client.jdbc.internal.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+        at net.snowflake.client.jdbc.internal.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+        at net.snowflake.client.jdbc.RestRequest.execute(RestRequest.java:222)
+        at net.snowflake.client.jdbc.RestRequest.execute(RestRequest.java:67)
+        at net.snowflake.client.core.HttpUtil.executeRequestInternal(HttpUtil.java:751)
+        at net.snowflake.client.core.HttpUtil.executeRequest(HttpUtil.java:684)
+        at net.snowflake.client.core.HttpUtil.executeGeneralRequest(HttpUtil.java:601)
+        at net.snowflake.client.jdbc.telemetry.TelemetryClient.sendBatch(TelemetryClient.java:352)
+        at net.snowflake.client.jdbc.telemetry.TelemetryClient.lambda$sendBatchAsync$0(TelemetryClient.java:282)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-04-01 11:41:26 [43mdestination[0m > INFO main i.a.c.i.b.IntegrationRunner(runInternal):231 Completed integration: io.airbyte.integrations.destination.snowflake.SnowflakeDestination
+2024-04-01 11:41:26 [43mdestination[0m > INFO main i.a.c.i.b.a.AdaptiveDestinationRunner$Runner(run):89 Completed destination: io.airbyte.integrations.destination.snowflake.SnowflakeDestination
+2024-04-01 11:41:27 [46mplatform[0m > readFromDestination: done. (writeToDestFailed:false, dest.isFinished:true)
+2024-04-01 11:41:27 [46mplatform[0m > thread status... timeout thread: false , replication thread: true
+2024-04-01 11:41:27 [46mplatform[0m > sync summary: {
+  "status" : "completed",
+  "recordsSynced" : 0,
+  "bytesSynced" : 0,
+  "startTime" : 1711971634475,
+  "endTime" : 1711971687578,
+  "totalStats" : {
+    "bytesCommitted" : 84742,
+    "bytesEmitted" : 84742,
+    "destinationStateMessagesEmitted" : 0,
+    "destinationWriteEndTime" : 1711971687557,
+    "destinationWriteStartTime" : 1711971634478,
+    "meanSecondsBeforeSourceStateMessageEmitted" : 0,
+    "maxSecondsBeforeSourceStateMessageEmitted" : 0,
+    "maxSecondsBetweenStateMessageEmittedandCommitted" : 0,
+    "meanSecondsBetweenStateMessageEmittedandCommitted" : 0,
+    "recordsEmitted" : 391,
+    "recordsCommitted" : 391,
+    "replicationEndTime" : 1711971687577,
+    "replicationStartTime" : 1711971634475,
+    "sourceReadEndTime" : 1711971677906,
+    "sourceReadStartTime" : 1711971634478,
+    "sourceStateMessagesEmitted" : 0
+  },
+  "streamStats" : [ {
+    "streamName" : "raw_product",
+    "streamNamespace" : "dbo",
+    "stats" : {
+      "bytesCommitted" : 84742,
+      "bytesEmitted" : 84742,
+      "recordsEmitted" : 391,
+      "recordsCommitted" : 391
+    }
+  } ],
+  "performanceMetrics" : {
+    "processFromSource" : {
+      "elapsedTimeInNanos" : 97741897,
+      "executionCount" : 394,
+      "avgExecTimeInNanos" : 248075.8807106599
+    },
+    "readFromSource" : {
+      "elapsedTimeInNanos" : 43085719702,
+      "executionCount" : 594,
+      "avgExecTimeInNanos" : 7.253488165319866E7
+    },
+    "processFromDest" : {
+      "elapsedTimeInNanos" : 0,
+      "executionCount" : 0,
+      "avgExecTimeInNanos" : "NaN"
+    },
+    "writeToDest" : {
+      "elapsedTimeInNanos" : 17502779,
+      "executionCount" : 391,
+      "avgExecTimeInNanos" : 44764.14066496164
+    },
+    "readFromDest" : {
+      "elapsedTimeInNanos" : 52746425369,
+      "executionCount" : 435,
+      "avgExecTimeInNanos" : 1.2125615027356322E8
+    }
+  }
+}
+2024-04-01 11:41:27 [46mplatform[0m > failures: [ ]
+2024-04-01 11:41:27 [46mplatform[0m > 
+2024-04-01 11:41:27 [46mplatform[0m > ----- END REPLICATION -----
+2024-04-01 11:41:27 [46mplatform[0m > 

@@ -10,4 +10,4 @@ select
     month_of_year as month_number
 
 
-from {{ref('stg_date')}}-
+from {{ref('stg_date')}}
