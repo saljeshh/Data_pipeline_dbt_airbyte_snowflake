@@ -5,11 +5,20 @@ Welcome to your new dbt project!
 Try running the following commands:
 - dbt run
 - dbt test
+- dbt deps
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+### Requirements:
+1. Airbyte running in docker
+2. pip install dagster dagster-airbyte
+3. pip install dagster-dbt dagster-webserver
+4. dagster-dbt project scaffold --project-name jaffle_dagster (https://docs.dagster.io/integrations/dbt/using-dbt-with-dagster/load-dbt-models)
+5. $env:DAGSTER_DBT_PARSE_PROJECT_ON_LOAD = "1"; dagster dev
+   If using virtual environment . do ->> $env:PYTHONLEGACYWINDOWSSTDIO = "1" ->> on terminal
+
+## Resource
+https://www.youtube.com/watch?v=8340_gU_Zy0&t=1s
+
+
+
