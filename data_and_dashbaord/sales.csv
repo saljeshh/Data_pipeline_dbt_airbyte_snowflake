@@ -1,0 +1,197 @@
+﻿product_id,product_name,product_state,selling_price,product_cost,quantity,customer_name,order_date,city,state
+111,Rasmalai,Bihar,400,140,50,Aavash,3/4/2024,Hyderabad,Madhya Pradesh
+111,Rasmalai,Bihar,400,140,20,Saljesh,1/4/2024,Bhopal,Madhya Pradesh
+101,Malapua,Bihar,300,250,21,Adwait,1/1/2022,Hyderabad,Telangana
+100,Dhokla,Gujarat,400,200,40,Saljesh,1/2/2022,Bhopal,Madhya Pradesh
+102,Dhokla,Gujarat,575,90,19,Chitra,1/2/2022,Bhopal,Madhya Pradesh
+103,Mysore pak,Karnataka,275,250,18,Gopal,1/3/2022,Bengaluru,Karnataka
+108,Peda,Uttar Pradesh,700,300,8,Gopal,1/8/2022,Bengaluru,Karnataka
+104,Modak,Maharashtra,250,185,46,Rishabh,1/9/2022,Pune,Maharashtra
+101,Malapua,Bihar,300,250,32,Adwait,1/11/2022,Hyderabad,Telangana
+102,Dhokla,Gujarat,575,90,33,Gopal,1/18/2022,Bengaluru,Karnataka
+104,Modak,Maharashtra,250,185,17,Rishabh,1/19/2022,Pune,Maharashtra
+104,Modak,Maharashtra,250,185,39,Madhav,1/20/2022,Mathura,Uttar Pradesh
+104,Modak,Maharashtra,250,185,11,Adwait,1/21/2022,Hyderabad,Telangana
+110,Pani puri,Uttar Pradesh,20,5,101,Chitra,1/22/2022,Bhopal,Madhya Pradesh
+102,Dhokla,Gujarat,575,90,11,Adwait,1/26/2022,Hyderabad,Telangana
+103,Mysore pak,Karnataka,275,250,33,Chitra,1/27/2022,Bhopal,Madhya Pradesh
+110,Pani puri,Uttar Pradesh,20,5,42,Gopal,1/28/2022,Bengaluru,Karnataka
+102,Dhokla,Gujarat,575,90,31,Chitra,2/1/2022,Bhopal,Madhya Pradesh
+110,Pani puri,Uttar Pradesh,20,5,31,Gopal,2/2/2022,Bengaluru,Karnataka
+110,Pani puri,Uttar Pradesh,20,5,21,Adwait,2/5/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,42,Chitra,2/6/2022,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,17,Gopal,2/7/2022,Bengaluru,Karnataka
+110,Pani puri,Uttar Pradesh,20,5,36,Rishabh,2/8/2022,Pune,Maharashtra
+110,Pani puri,Uttar Pradesh,20,5,49,Adwait,2/9/2022,Hyderabad,Telangana
+108,Peda,Uttar Pradesh,700,300,39,Chitra,2/10/2022,Bhopal,Madhya Pradesh
+110,Pani puri,Uttar Pradesh,20,5,25,Gopal,2/11/2022,Bengaluru,Karnataka
+110,Pani puri,Uttar Pradesh,20,5,22,Rishabh,2/12/2022,Pune,Maharashtra
+110,Pani puri,Uttar Pradesh,20,5,28,Madhav,2/13/2022,Mathura,Uttar Pradesh
+110,Pani puri,Uttar Pradesh,20,5,32,Adwait,2/14/2022,Hyderabad,Telangana
+110,Pani puri,Uttar Pradesh,20,5,12,Chitra,2/15/2022,Bhopal,Madhya Pradesh
+110,Pani puri,Uttar Pradesh,20,5,43,Gopal,2/16/2022,Bengaluru,Karnataka
+110,Pani puri,Uttar Pradesh,20,5,20,Rishabh,2/17/2022,Pune,Maharashtra
+109,Rasgulla,West Bengal,45,25,40,Rishabh,2/21/2022,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,40,Chitra,3/1/2022,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,24,Adwait,3/2/2022,Hyderabad,Telangana
+105,Gajar ka halwa,Punjab,1250,150,32,Chitra,3/3/2022,Bhopal,Madhya Pradesh
+106,Ghevar,Rajasthan,500,250,14,Gopal,3/4/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,13,Madhav,3/14/2022,Mathura,Uttar Pradesh
+101,Malapua,Bihar,300,250,46,Adwait,3/15/2022,Hyderabad,Telangana
+103,Mysore pak,Karnataka,275,250,23,Gopal,3/17/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,37,Rishabh,3/18/2022,Pune,Maharashtra
+106,Ghevar,Rajasthan,500,250,32,Adwait,3/20/2022,Hyderabad,Telangana
+108,Peda,Uttar Pradesh,700,300,13,Gopal,3/22/2022,Bengaluru,Karnataka
+101,Malapua,Bihar,300,250,18,Rishabh,3/23/2022,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,13,Adwait,3/25/2022,Hyderabad,Telangana
+109,Rasgulla,West Bengal,45,25,31,Chitra,3/26/2022,Bhopal,Madhya Pradesh
+106,Ghevar,Rajasthan,500,250,39,Adwait,3/28/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,46,Chitra,3/29/2022,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,11,Gopal,3/30/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,27,Rishabh,3/31/2022,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,48,Madhav,3/31/2022,Mathura,Uttar Pradesh
+106,Ghevar,Rajasthan,500,250,14,Adwait,3/31/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,3/31/2022,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,12,Gopal,3/31/2022,Bengaluru,Karnataka
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,4/3/2022,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,21,Madhav,4/10/2022,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,27,Rishabh,4/12/2022,Pune,Maharashtra
+102,Dhokla,Gujarat,575,90,25,Chitra,4/18/2022,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,12,Rishabh,4/18/2022,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,14,Gopal,4/19/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,49,Rishabh,4/29/2022,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,48,Madhav,4/30/2022,Mathura,Uttar Pradesh
+108,Peda,Uttar Pradesh,700,300,12,Gopal,4/30/2022,Bengaluru,Karnataka
+104,Modak,Maharashtra,250,185,10,Rishabh,5/4/2022,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,9,Madhav,5/9/2022,Mathura,Uttar Pradesh
+106,Ghevar,Rajasthan,500,250,12,Adwait,5/12/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,17,Chitra,5/30/2022,Bhopal,Madhya Pradesh
+103,Mysore pak,Karnataka,275,250,25,Gopal,6/13/2022,Bengaluru,Karnataka
+104,Modak,Maharashtra,250,185,41,Rishabh,6/14/2022,Pune,Maharashtra
+101,Malapua,Bihar,300,250,45,Madhav,6/15/2022,Mathura,Uttar Pradesh
+102,Dhokla,Gujarat,575,90,18,Adwait,6/16/2022,Hyderabad,Telangana
+101,Malapua,Bihar,300,250,40,Chitra,6/17/2022,Bhopal,Madhya Pradesh
+102,Dhokla,Gujarat,575,90,41,Chitra,6/18/2022,Bhopal,Madhya Pradesh
+110,Pani puri,Uttar Pradesh,20,5,15,Gopal,7/23/2022,Bengaluru,Karnataka
+110,Pani puri,Uttar Pradesh,20,5,44,Rishabh,7/24/2022,Pune,Maharashtra
+110,Pani puri,Uttar Pradesh,20,5,42,Madhav,7/25/2022,Mathura,Uttar Pradesh
+101,Malapua,Bihar,300,250,19,Rishabh,7/29/2022,Pune,Maharashtra
+110,Pani puri,Uttar Pradesh,20,5,34,Rishabh,8/3/2022,Pune,Maharashtra
+110,Pani puri,Uttar Pradesh,20,5,39,Madhav,8/4/2022,Mathura,Uttar Pradesh
+104,Modak,Maharashtra,250,185,34,Madhav,8/10/2022,Mathura,Uttar Pradesh
+102,Dhokla,Gujarat,575,90,16,Madhav,8/30/2022,Mathura,Uttar Pradesh
+101,Malapua,Bihar,300,250,21,Adwait,8/31/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,34,Adwait,9/18/2022,Hyderabad,Telangana
+108,Peda,Uttar Pradesh,700,300,13,Chitra,9/19/2022,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,20,Gopal,9/20/2022,Bengaluru,Karnataka
+108,Peda,Uttar Pradesh,700,300,15,Madhav,9/22/2022,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,22,Adwait,9/23/2022,Hyderabad,Telangana
+109,Rasgulla,West Bengal,45,25,29,Chitra,9/24/2022,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,24,Gopal,9/25/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,19,Rishabh,9/26/2022,Pune,Maharashtra
+101,Malapua,Bihar,300,250,42,Madhav,9/27/2022,Mathura,Uttar Pradesh
+102,Dhokla,Gujarat,575,90,20,Adwait,9/28/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,25,Adwait,10/5/2022,Hyderabad,Telangana
+108,Peda,Uttar Pradesh,700,300,44,Chitra,10/6/2022,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,36,Gopal,10/7/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,44,Rishabh,10/8/2022,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,49,Madhav,10/9/2022,Mathura,Uttar Pradesh
+106,Ghevar,Rajasthan,500,250,34,Adwait,10/10/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,43,Chitra,10/11/2022,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,45,Gopal,10/12/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,11,Rishabh,10/13/2022,Pune,Maharashtra
+101,Malapua,Bihar,300,250,31,Adwait,11/2/2022,Hyderabad,Telangana
+102,Dhokla,Gujarat,575,90,25,Chitra,11/11/2022,Bhopal,Madhya Pradesh
+105,Gajar ka halwa,Punjab,1250,150,28,Madhav,11/19/2022,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,21,Madhav,11/20/2022,Mathura,Uttar Pradesh
+103,Mysore pak,Karnataka,275,250,14,Gopal,11/22/2022,Bengaluru,Karnataka
+105,Gajar ka halwa,Punjab,1250,150,27,Gopal,11/27/2022,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,49,Rishabh,11/30/2022,Pune,Maharashtra
+106,Ghevar,Rajasthan,500,250,14,Adwait,12/9/2022,Hyderabad,Telangana
+102,Dhokla,Gujarat,575,90,21,Chitra,12/16/2022,Bhopal,Madhya Pradesh
+101,Malapua,Bihar,300,250,31,Adwait,12/16/2022,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,27,Chitra,12/21/2022,Bhopal,Madhya Pradesh
+102,Dhokla,Gujarat,575,90,32,Madhav,12/24/2022,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,12,Rishabh,12/31/2022,Pune,Maharashtra
+106,Ghevar,Rajasthan,500,250,32,Adwait,1/20/2023,Hyderabad,Telangana
+108,Peda,Uttar Pradesh,700,300,13,Gopal,1/22/2023,Bengaluru,Karnataka
+101,Malapua,Bihar,300,250,18,Rishabh,1/23/2023,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,13,Adwait,1/25/2023,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,2/1/2023,Bhopal,Madhya Pradesh
+105,Gajar ka halwa,Punjab,1250,150,48,Madhav,2/2/2023,Mathura,Uttar Pradesh
+106,Ghevar,Rajasthan,500,250,14,Adwait,2/3/2023,Hyderabad,Telangana
+109,Rasgulla,West Bengal,45,25,31,Chitra,2/26/2023,Bhopal,Madhya Pradesh
+106,Ghevar,Rajasthan,500,250,39,Adwait,2/28/2023,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,46,Chitra,3/29/2023,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,11,Gopal,3/30/2023,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,27,Rishabh,3/31/2023,Pune,Maharashtra
+108,Peda,Uttar Pradesh,700,300,12,Gopal,3/31/2023,Bengaluru,Karnataka
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,4/3/2023,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,21,Madhav,4/10/2023,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,27,Rishabh,4/12/2023,Pune,Maharashtra
+102,Dhokla,Gujarat,575,90,25,Chitra,5/18/2023,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,12,Rishabh,5/18/2023,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,14,Gopal,5/19/2023,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,49,Rishabh,5/29/2023,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,48,Madhav,6/15/2023,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,27,Rishabh,6/18/2023,Pune,Maharashtra
+101,Malapua,Bihar,300,250,18,Rishabh,6/23/2023,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,13,Adwait,6/25/2023,Hyderabad,Telangana
+109,Rasgulla,West Bengal,45,25,31,Chitra,6/26/2023,Bhopal,Madhya Pradesh
+106,Ghevar,Rajasthan,500,250,39,Adwait,6/28/2023,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,46,Chitra,6/29/2023,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,11,Gopal,6/30/2023,Bengaluru,Karnataka
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,7/3/2023,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,21,Madhav,7/10/2023,Mathura,Uttar Pradesh
+109,Rasgulla,West Bengal,45,25,27,Rishabh,7/12/2023,Pune,Maharashtra
+106,Ghevar,Rajasthan,500,250,14,Adwait,7/31/2023,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,7/31/2023,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,12,Gopal,7/31/2023,Bengaluru,Karnataka
+102,Dhokla,Gujarat,575,90,25,Chitra,8/18/2023,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,12,Rishabh,8/18/2023,Pune,Maharashtra
+103,Mysore pak,Karnataka,275,250,14,Gopal,8/19/2023,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,49,Rishabh,8/29/2023,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,48,Madhav,8/30/2023,Mathura,Uttar Pradesh
+108,Peda,Uttar Pradesh,700,300,12,Gopal,8/30/2023,Bengaluru,Karnataka
+104,Modak,Maharashtra,250,185,10,Rishabh,9/4/2023,Pune,Maharashtra
+105,Gajar ka halwa,Punjab,1250,150,9,Madhav,9/9/2023,Mathura,Uttar Pradesh
+106,Ghevar,Rajasthan,500,250,12,Adwait,9/12/2023,Hyderabad,Telangana
+103,Mysore pak,Karnataka,275,250,25,Gopal,9/13/2023,Bengaluru,Karnataka
+107,Jalebi,Uttar Pradesh,350,50,17,Chitra,9/30/2023,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,45,Gopal,10/12/2023,Bengaluru,Karnataka
+109,Rasgulla,West Bengal,45,25,11,Rishabh,10/13/2023,Pune,Maharashtra
+104,Modak,Maharashtra,250,185,41,Rishabh,10/14/2023,Pune,Maharashtra
+101,Malapua,Bihar,300,250,45,Madhav,11/15/2023,Mathura,Uttar Pradesh
+102,Dhokla,Gujarat,575,90,18,Adwait,11/16/2023,Hyderabad,Telangana
+102,Dhokla,Gujarat,575,90,41,Chitra,11/18/2023,Bhopal,Madhya Pradesh
+105,Gajar ka halwa,Punjab,1250,150,28,Madhav,11/19/2023,Mathura,Uttar Pradesh
+110,Pani puri,Uttar Pradesh,20,5,15,Gopal,11/23/2023,Bengaluru,Karnataka
+105,Gajar ka halwa,Punjab,1250,150,27,Gopal,11/27/2023,Bengaluru,Karnataka
+106,Ghevar,Rajasthan,500,250,14,Adwait,12/9/2023,Hyderabad,Telangana
+102,Dhokla,Gujarat,575,90,21,Chitra,12/16/2023,Bhopal,Madhya Pradesh
+101,Malapua,Bihar,300,250,31,Adwait,12/16/2023,Hyderabad,Telangana
+101,Malapua,Bihar,300,250,40,Chitra,12/17/2023,Bhopal,Madhya Pradesh
+107,Jalebi,Uttar Pradesh,350,50,27,Chitra,12/21/2023,Bhopal,Madhya Pradesh
+102,Dhokla,Gujarat,575,90,41,Chitra,1/18/2024,Bhopal,Madhya Pradesh
+105,Gajar ka halwa,Punjab,1250,150,28,Madhav,1/19/2024,Mathura,Uttar Pradesh
+108,Peda,Uttar Pradesh,700,300,13,Gopal,1/22/2024,Bengaluru,Karnataka
+101,Malapua,Bihar,300,250,18,Rishabh,1/23/2024,Pune,Maharashtra
+110,Pani puri,Uttar Pradesh,20,5,15,Gopal,1/23/2024,Bengaluru,Karnataka
+103,Mysore pak,Karnataka,275,250,13,Adwait,1/25/2024,Hyderabad,Telangana
+109,Rasgulla,West Bengal,45,25,31,Chitra,1/26/2024,Bhopal,Madhya Pradesh
+106,Ghevar,Rajasthan,500,250,39,Adwait,1/28/2024,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,46,Chitra,1/29/2024,Bhopal,Madhya Pradesh
+105,Gajar ka halwa,Punjab,1250,150,48,Madhav,2/3/2024,Mathura,Uttar Pradesh
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,2/3/2024,Bhopal,Madhya Pradesh
+108,Peda,Uttar Pradesh,700,300,11,Gopal,2/4/2024,Bengaluru,Karnataka
+106,Ghevar,Rajasthan,500,250,14,Adwait,2/11/2024,Hyderabad,Telangana
+107,Jalebi,Uttar Pradesh,350,50,28,Chitra,2/11/2024,Bhopal,Madhya Pradesh
+109,Rasgulla,West Bengal,45,25,27,Rishabh,2/12/2024,Pune,Maharashtra
+102,Dhokla,Gujarat,575,90,18,Adwait,2/16/2024,Hyderabad,Telangana
+108,Peda,Uttar Pradesh,700,300,12,Gopal,2/19/2024,Bengaluru,Karnataka
+105,Gajar ka halwa,Punjab,1250,150,27,Gopal,3/1/2024,Bengaluru,Karnataka
+106,Ghevar,Rajasthan,500,250,14,Adwait,3/2/2024,Hyderabad,Telangana
+102,Dhokla,Gujarat,575,90,21,Chitra,3/12/2024,Bhopal,Madhya Pradesh
+101,Malapua,Bihar,300,250,31,Adwait,3/16/2024,Hyderabad,Telangana
+101,Malapua,Bihar,300,250,40,Chitra,3/17/2024,Bhopal,Madhya Pradesh
+107,Jalebi,Uttar Pradesh,350,50,27,Chitra,3/19/2024,Bhopal,Madhya Pradesh
